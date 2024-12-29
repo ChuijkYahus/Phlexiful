@@ -1,0 +1,13 @@
+{
+  "bookGuiScale": 4,
+  "clickedVisualize": false,
+  "bookData": {
+    "hexcasting:thehexbook": {
+      "viewedEntries": [
+        "hexcasting:patterns/spells/blockworks"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
+}
