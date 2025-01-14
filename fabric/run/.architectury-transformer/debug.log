@@ -3,7 +3,7 @@
 [Architectury Transformer DEBUG] Preparing tiny remapper prepared transformer: dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Provided 112 classpath jar(s):
 [Architectury Transformer DEBUG]  - /home/candy/.gradle/caches/modules-2/files-2.1/dev.architectury/architectury-injectables/1.0.10/62db2a366d662606d1b23ad02ccc3212ed37ec3/architectury-injectables-1.0.10.jar
-[Architectury Transformer DEBUG]  - /home/candy/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.16.9/7eaa23079ac1569963e488054db124c7eb984f05/fabric-loader-0.16.9.jar
+[Architectury Transformer DEBUG]  - /home/candy/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.16.10/dbd932c2a3641d2c41cf9abfe47e140a5753fa86/fabric-loader-0.16.10.jar
 [Architectury Transformer DEBUG]  - /home/candy/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/24.1.0/7af6a669488450c4a07c2c3254e2151df42d7d04/annotations-24.1.0.jar
 [Architectury Transformer DEBUG]  - /home/candy/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.7.1/f0ed132a49244b042cd0e15702ab9f2ce3cc8436/asm-9.7.1.jar
 [Architectury Transformer DEBUG]  - /home/candy/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/9.7.1/f97a3b319f0ed6a8cd944dc79060d3912a28985f/asm-analysis-9.7.1.jar
@@ -114,51 +114,78 @@
 [Architectury Transformer DEBUG]  - /home/candy/Desktop/minecraft mod making/aa plexiful/phlexiful/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/net/fabricmc/fabric-api/fabric-resource-loader-v0/0.11.10+1802ada577/fabric-resource-loader-v0-0.11.10+1802ada577.jar
 [Architectury Transformer DEBUG]  - /home/candy/Desktop/minecraft mod making/aa plexiful/phlexiful/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/net/fabricmc/fabric-api/fabric-sound-api-v1/1.0.13+1802ada577/fabric-sound-api-v1-1.0.13+1802ada577.jar
 [Architectury Transformer DEBUG]  - /home/candy/Desktop/minecraft mod making/aa plexiful/phlexiful/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/net/fabricmc/fabric-api/fabric-transitive-access-wideners-v1/4.3.1+1802ada577/fabric-transitive-access-wideners-v1-4.3.1+1802ada577.jar
-[Architectury Transformer] Read classpath in 1.142 s
+[Architectury Transformer] Read classpath in 1.230 s
 [Architectury Transformer DEBUG] Closed File Systems for /home/candy/Desktop/minecraft mod making/aa plexiful/phlexiful/common/build/devlibs/phlexiful-common-0.0.1-dev.jar
-[Architectury Transformer DEBUG] Transforming 5 transformer(s) from /home/candy/Desktop/minecraft mod making/aa plexiful/phlexiful/common/build/devlibs/phlexiful-common-0.0.1-dev.jar to /tmp/16348266535709200357.jar: 
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@1e6d1014
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeFabricMod@76707e36
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@614ddd49
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@1f554b06
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@694e1548
-[Architectury Transformer DEBUG] Transforming from /home/candy/Desktop/minecraft mod making/aa plexiful/phlexiful/common/build/devlibs/phlexiful-common-0.0.1-dev.jar to /tmp/16348266535709200357.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer DEBUG] Transforming 5 transformer(s) from /home/candy/Desktop/minecraft mod making/aa plexiful/phlexiful/common/build/devlibs/phlexiful-common-0.0.1-dev.jar to /tmp/15811099181280782098.jar: 
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@33c7e1bb
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeFabricMod@34c4973
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@52feb982
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@7a765367
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@76b0bfab
+[Architectury Transformer DEBUG] Transforming from /home/candy/Desktop/minecraft mod making/aa plexiful/phlexiful/common/build/devlibs/phlexiful-common-0.0.1-dev.jar to /tmp/15811099181280782098.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing io/github/candycalc/Phlexiful with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing io/github/candycalc/registry/BlockRegistry with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing io/github/candycalc/casting/env/DissociatedCastEnv with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing io/github/candycalc/casting/actions/eval/OpDissociateEval with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing io/github/candycalc/casting/actions/eval/OpDissociateEval$exec$instrsList$2 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing io/github/candycalc/casting/actions/eval/OpDissociateEval$exec$instrsList$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing io/github/candycalc/items/armor/BatteryPants with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing io/github/candycalc/items/WeldingMask with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing io/github/candycalc/mixin/client/ItemRendererAccessor with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing io/github/candycalc/mixin/client/ParticleEngineMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing io/github/candycalc/mixin/client/ModelBakeryMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing io/github/candycalc/mixin/client/ItemRendererMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing io/github/candycalc/registry/ItemRegistry with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing io/github/candycalc/registry/PatternRegistry with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing io/github/candycalc/registry/BlockRegistry with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing io/github/candycalc/patterns/great/OpDestroyBlock with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing io/github/candycalc/patterns/great/OpDestroyBlock$Spell with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing io/github/candycalc/blocks/CobbledBedrock with maxs=true frames=true
+[Architectury Transformer DEBUG] Checking whether /phlexiful-common-common-refmap.json is a mixin config.
 [Architectury Transformer DEBUG] Checking whether /phlexiful.mixins.json is a mixin config.
-[Architectury Transformer DEBUG] Closed File Systems for /tmp/16348266535709200357.jar
+[Architectury Transformer DEBUG] Closed File Systems for /tmp/15811099181280782098.jar
 [Architectury Transformer] Listening at /home/candy/Desktop/minecraft mod making/aa plexiful/phlexiful/common/build/devlibs/phlexiful-common-0.0.1-dev.jar
-[Architectury Transformer DEBUG] Temporary jar [/tmp/16348266535709200357.jar] contains packages: io.github.candycalc, io.github.candycalc.blocks, io.github.candycalc.registry, io.github.candycalc.patterns.great
+[Architectury Transformer DEBUG] Temporary jar [/tmp/15811099181280782098.jar] contains packages: io.github.candycalc.casting.actions.eval, io.github.candycalc.casting.env, io.github.candycalc.mixin.client, io.github.candycalc.items, io.github.candycalc, io.github.candycalc.blocks, io.github.candycalc.registry, io.github.candycalc.patterns.great, io.github.candycalc.items.armor
 [Architectury Transformer DEBUG] Closed File Systems for /home/candy/Desktop/minecraft mod making/aa plexiful/phlexiful/common/build/devlibs/phlexiful-common-0.0.1-dev.jar
 [Architectury Transformer DEBUG] Classpath entry [/home/candy/Desktop/minecraft mod making/aa plexiful/phlexiful/fabric/build/classes/java/main] contains packages: io.github.candycalc.fabric.client, io.github.candycalc.fabric
 [Architectury Transformer DEBUG] Classpath entry [/home/candy/Desktop/minecraft mod making/aa plexiful/phlexiful/fabric/build/resources/main] contains packages: 
 [Architectury Transformer DEBUG] Transforming from io/github/candycalc/Phlexiful.class to io/github/candycalc/Phlexiful.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing io/github/candycalc/Phlexiful with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed io/github/candycalc/Phlexiful in 733.0 μs
+[Architectury Transformer DEBUG] Transformed io/github/candycalc/Phlexiful in 863.8 μs
 [Architectury Transformer DEBUG] Transforming from io/github/candycalc/registry/PatternRegistry.class to io/github/candycalc/registry/PatternRegistry.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing io/github/candycalc/registry/PatternRegistry with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed io/github/candycalc/registry/PatternRegistry in 932.3 μs
+[Architectury Transformer DEBUG] Transformed io/github/candycalc/registry/PatternRegistry in 710.2 μs
 [Architectury Transformer DEBUG] Transforming from io/github/candycalc/patterns/great/OpDestroyBlock.class to io/github/candycalc/patterns/great/OpDestroyBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing io/github/candycalc/patterns/great/OpDestroyBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed io/github/candycalc/patterns/great/OpDestroyBlock in 1.323 ms
+[Architectury Transformer DEBUG] Transformed io/github/candycalc/patterns/great/OpDestroyBlock in 1.322 ms
+[Architectury Transformer DEBUG] Transforming from io/github/candycalc/casting/actions/eval/OpDissociateEval.class to io/github/candycalc/casting/actions/eval/OpDissociateEval.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/candycalc/casting/actions/eval/OpDissociateEval with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/candycalc/casting/actions/eval/OpDissociateEval in 1.221 ms
 [Architectury Transformer DEBUG] Transforming from io/github/candycalc/registry/BlockRegistry.class to io/github/candycalc/registry/BlockRegistry.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing io/github/candycalc/registry/BlockRegistry with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed io/github/candycalc/registry/BlockRegistry in 667.5 μs
+[Architectury Transformer DEBUG] Transformed io/github/candycalc/registry/BlockRegistry in 810.1 μs
 [Architectury Transformer DEBUG] Transforming from io/github/candycalc/blocks/CobbledBedrock.class to io/github/candycalc/blocks/CobbledBedrock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing io/github/candycalc/blocks/CobbledBedrock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed io/github/candycalc/blocks/CobbledBedrock in 308.3 μs
-[Architectury Transformer DEBUG] Transforming from io/github/candycalc/patterns/great/OpDestroyBlock$Spell.class to io/github/candycalc/patterns/great/OpDestroyBlock$Spell.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Transformed io/github/candycalc/blocks/CobbledBedrock in 305.3 μs
+[Architectury Transformer DEBUG] Transforming from io/github/candycalc/registry/ItemRegistry.class to io/github/candycalc/registry/ItemRegistry.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing io/github/candycalc/patterns/great/OpDestroyBlock$Spell with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed io/github/candycalc/patterns/great/OpDestroyBlock$Spell in 2.916 ms
+[Architectury Transformer DEBUG] Writing io/github/candycalc/registry/ItemRegistry with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/candycalc/registry/ItemRegistry in 780.0 μs
+[Architectury Transformer DEBUG] Transforming from io/github/candycalc/items/armor/BatteryPants.class to io/github/candycalc/items/armor/BatteryPants.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/candycalc/items/armor/BatteryPants with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/candycalc/items/armor/BatteryPants in 1.434 ms
+[Architectury Transformer DEBUG] Transforming from io/github/candycalc/items/WeldingMask.class to io/github/candycalc/items/WeldingMask.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/candycalc/items/WeldingMask with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/candycalc/items/WeldingMask in 327.7 μs
+[Architectury Transformer DEBUG] Transforming from io/github/candycalc/mixin/client/ItemRendererAccessor.class to io/github/candycalc/mixin/client/ItemRendererAccessor.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/candycalc/mixin/client/ItemRendererAccessor with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/candycalc/mixin/client/ItemRendererAccessor in 375.3 μs

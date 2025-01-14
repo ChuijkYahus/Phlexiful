@@ -77,15 +77,39 @@
     },
     "done": true
   },
+  "hexcasting:recipes/tools/cypher": {
+    "criteria": {
+      "has_item": "2024-12-27 19:55:11 -0800"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:plains": "2024-12-27 19:55:12 -0800"
     },
     "done": false
   },
-  "hexcasting:recipes/tools/cypher": {
+  "hexcasting:root": {
     "criteria": {
-      "has_item": "2024-12-27 19:55:11 -0800"
+      "has_charged_amethyst": "2025-01-14 00:03:30 -0800"
+    },
+    "done": true
+  },
+  "hexcasting:enlightenment": {
+    "criteria": {
+      "health_used": "2025-01-14 00:03:30 -0800"
+    },
+    "done": true
+  },
+  "hexcasting:opened_eyes": {
+    "criteria": {
+      "health_used": "2025-01-14 00:03:30 -0800"
+    },
+    "done": true
+  },
+  "hexcasting:y_u_no_cast_angy": {
+    "criteria": {
+      "did_the_thing": "2025-01-14 00:03:30 -0800"
     },
     "done": true
   },

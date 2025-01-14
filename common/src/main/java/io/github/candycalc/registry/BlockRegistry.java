@@ -4,6 +4,7 @@ import dev.architectury.registry.registries.DeferredRegister;
 import dev.architectury.registry.registries.RegistrySupplier;
 import io.github.candycalc.blocks.CobbledBedrock;
 import net.minecraft.core.registries.Registries;
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -23,6 +24,7 @@ public class BlockRegistry {
             () -> new CobbledBedrock(BlockBehaviour.Properties.copy(Blocks.BEDROCK).strength(-2.0f, 3600000.0f)));
 
     private static <T extends Block> RegistrySupplier<T> addToRegistry(String name, Supplier<T> block) {
+        ItemRegistry.ITEMS.register(name, () -> new BlockItem(COBBLED_BEDROCK.get(), ItemRegistry.defaultProperties()));
         return BLOCKS.register(name, block);
     }
 

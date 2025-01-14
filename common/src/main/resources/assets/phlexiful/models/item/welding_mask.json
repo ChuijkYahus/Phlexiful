@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "phlexiful:item/welding_mask_item"
+  }
+}
