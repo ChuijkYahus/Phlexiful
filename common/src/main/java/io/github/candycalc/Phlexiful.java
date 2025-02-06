@@ -1,6 +1,7 @@
 package io.github.candycalc;
 
 import io.github.candycalc.registry.BlockRegistry;
+import io.github.candycalc.registry.EnchantRegistry;
 import io.github.candycalc.registry.ItemRegistry;
 import io.github.candycalc.registry.PatternRegistry;
 import org.slf4j.Logger;
@@ -17,5 +18,6 @@ public final class Phlexiful {
         PatternRegistry.register();
         BlockRegistry.register();
         ItemRegistry.register();
+        EnchantRegistry.register();
     }
 }

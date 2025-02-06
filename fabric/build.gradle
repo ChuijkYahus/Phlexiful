@@ -38,6 +38,19 @@ dependencies {
 
     //mods
     modImplementation("at.petra-k.hexcasting:hexcasting-fabric-$rootProject.minecraft_version:$rootProject.hexcasting_version") {}// {transitive false}
+    modImplementation("software.bernie.geckolib:geckolib-fabric-$rootProject.minecraft_version:$rootProject.geckolib_version")
+    implementation("com.eliotlash.mclib:mclib:20")
+}
+repositories {
+    mavenCentral()
+    maven {
+        name = 'GeckoLib'
+        url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/'
+        content {
+            includeGroupByRegex("software\\.bernie.*")
+            includeGroup("com.eliotlash.mclib")
+        }
+    }
 }
 
 processResources {

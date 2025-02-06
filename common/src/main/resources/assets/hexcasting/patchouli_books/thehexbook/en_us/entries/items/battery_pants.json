@@ -1,0 +1,22 @@
+{
+  "name": "phlexiful.page.battery_pants.title",
+  "icon": "phlexiful:battery_pants",
+  "advancement": "hexcasting:root",
+  "category": "hexcasting:items",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "phlexiful.page.battery_pants.1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "phlexiful.page.battery_pants.2"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "phlexiful:battery_pants",
+      "text": "phlexiful.page.battery_pants.crafting.desc"
+    }
+  ]
+}

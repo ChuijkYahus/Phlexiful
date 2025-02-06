@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "ab",
+    "c "
+  ],
+  "key": {
+    "a": {
+      "item": "hexcasting:lens"
+    },
+    "b": {
+      "item": "phlexiful:media_weave"
+    },
+    "c": {
+      "item": "hexcasting:slate"
+    }
+  },
+  "result": {
+    "item": "phlexiful:welding_mask",
+    "count": 1
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "phlexiful:media_weave"
+    },
+    "title": "Phlexible!",
+    "description": "Phlexcasting",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "hexcasting:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "phlexiful:media_weave"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

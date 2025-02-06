@@ -1,6 +1,5 @@
 package io.github.candycalc.registry;
 
-import at.petrak.hexcasting.common.items.ItemLens;
 import dev.architectury.registry.CreativeTabRegistry;
 import dev.architectury.registry.registries.DeferredRegister;
 import dev.architectury.registry.registries.RegistrySupplier;
@@ -18,8 +17,11 @@ public class ItemRegistry {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(MOD_ID, Registries.ITEM);
     public static final DeferredRegister<CreativeModeTab> TABS = DeferredRegister.create(MOD_ID, Registries.CREATIVE_MODE_TAB);
 
-    public static final RegistrySupplier<Item> BATTERY_PANTS = addToRegistry("battery_pants", () -> new BatteryPants(ArmorMaterials.GOLD, ArmorItem.Type.LEGGINGS, defaultProperties()));
+
+
+    public static final RegistrySupplier<Item> BATTERY_PANTS = addToRegistry("battery_pants", () -> new BatteryPants(ArmorItem.Type.LEGGINGS, defaultProperties()));
     public static final RegistrySupplier<Item> WELDING_MASK = addToRegistry("welding_mask", () -> new WeldingMask(defaultProperties()));
+    public static final RegistrySupplier<Item> MEDIA_WEAVE = addToRegistry("media_weave", () -> new Item(defaultProperties()));
 
 
     public static final RegistrySupplier<CreativeModeTab> PHLEXIFUL_TAB = TABS.register(

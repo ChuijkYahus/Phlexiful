@@ -1,0 +1,37 @@
+{
+  "name": "phlexiful.page.battery_pants_patterns.title",
+  "icon": "phlexiful:battery_pants",
+  "advancement": "hexcasting:root",
+  "category": "hexcasting:patterns",
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "phlexiful.page.battery_pants_patterns.1"
+    },
+    {
+      "type": "hexcasting:pattern",
+      "op_id": "phlexiful:get_pants_threshhold",
+      "anchor": "phlexiful:get_pants_threshhold",
+      "input": "",
+      "output": "num",
+      "text": "phlexiful.page.battery_pants_patterns.get_threshhold"
+    },
+    {
+      "type": "hexcasting:pattern",
+      "op_id": "phlexiful:set_pants_threshhold",
+      "anchor": "phlexiful:set_pants_threshhold",
+      "input": "num",
+      "output": "",
+      "text": "phlexiful.page.battery_pants_patterns.set_threshhold"
+    },
+    {
+      "type": "hexcasting:pattern",
+      "op_id": "phlexiful:read_pants_media",
+      "anchor": "phlexiful:read_pants_media",
+      "input": "",
+      "output": "num",
+      "text": "phlexiful.page.battery_pants_patterns.read_pants_media"
+    }
+  ]
+}
