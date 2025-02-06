@@ -23,7 +23,7 @@
 
   "phlexiful.page.battery_pants.title": "Media Catcher",
   "phlexiful.page.battery_pants.1": "I've found that the small cost of some spells can build up to be quite a substantial sum of _media over time. With a little bit of elbow grease, and some bolts of $(l:items/media_weave)$(item)Media Weave/$, I have made something to keep these mounting sums at bay.",
-  "phlexiful.page.battery_pants.2": "The $(l:items/battery_pants)$(item)Media Catcher/$ Slowly accrues _media. It can't hold much, so I might find some use in tuning it as to limit the release of _media.$(br2)It seems to be grabbing ambient _media. I it isn't unreasonable to assume there could be trace amounts of it about, but this is far too much... Where is it coming from?/$",
+  "phlexiful.page.battery_pants.2": "The $(l:items/battery_pants)$(item)Media Catcher/$ Slowly accrues _media. It can't hold much, so I might find some use in $(l:patterns/battery_pants_patterns)$(action)tuning it/$ as to limit the release of _media.$(br2)I suppose it isn't unreasonable to assume there could be trace amounts of _media about, but even then, what this catches is far too much... Where is it coming from?/$",
   "phlexiful.page.battery_pants.crafting.desc": "$(o)Oh, pants!",
 
   "phlexiful.page.battery_pants_patterns.title": "Media Catcher Patterns",
