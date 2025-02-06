@@ -11,7 +11,7 @@ import org.jetbrains.annotations.NotNull;
 import java.util.function.Supplier;
 
 public enum PhlexArmorMaterials implements ArmorMaterial {
-    BATTERY("battery", 0, new int[]{1, 1, 1, 1}, 20, SoundEvents.ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, null)
+    BATTERY("battery", 0, new int[]{1, 1, 1, 1}, 20, null, 0.0F, 0.0F, null)
     ;
 
     private final String name;
