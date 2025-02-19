@@ -3,13 +3,13 @@
   "id": "phlexiful",
   "version": "${version}",
   "name": "Phlexiful",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "An in-development Hex Casting Addon for just whatever",
   "authors": [
-    "Me!"
+    "crimew"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/candyCalc/Phlexiful"
   },
   "license": "CC0-1.0",
   "icon": "assets/phlexiful/icon.png",
@@ -23,7 +23,6 @@
     ]
   },
   "mixins": [
-    "phlexiful.mixins.json",
     "phlexiful.fabric.mixins.json"
   ],
   "depends": {
@@ -34,6 +33,5 @@
     "fabric-api": "*"
   },
   "suggests": {
-    "another-mod": "*"
   }
 }

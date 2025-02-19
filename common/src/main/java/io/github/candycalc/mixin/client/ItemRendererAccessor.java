@@ -9,6 +9,6 @@ import org.spongepowered.asm.mixin.gen.Accessor;
 // I genuienly do not know what this means at all
 @Mixin(ItemRenderer.class)
 public interface ItemRendererAccessor {
-    @Accessor("itemModelShaper")
+    @Accessor(value = "itemModelShaper")
     ItemModelShaper mccourse$getModelShaper();
 }

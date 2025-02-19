@@ -21,7 +21,7 @@ public class PatternRegistry {
     static Map<ResourceLocation, ActionRegistryEntry> HASHMAP = new HashMap<>();
 
     public static final ActionRegistryEntry
-            DESTROY_BLOCK = wrap("destroy_block", HexPattern.fromAngles("qaqqqqqwaeqqqeaeqqq", HexDir.EAST), OpDestroyBlock.INSTANCE),
+            DESTROY_BLOCK = wrap("destroy_block", HexPattern.fromAngles("qaqqqqqwaeaea", HexDir.EAST), OpDestroyBlock.INSTANCE),
             //TODO FINISH DISSOCIATE EVAL
             //DISSOCIATE_EVAL = wrap("dissociate_eval", HexPattern.fromAngles("dwddwde", HexDir.EAST), OpDissociateEval.INSTANCE),
             SETPANTSTHRESHHOLD = wrap("set_pants_threshhold", HexPattern.fromAngles("aedwd", HexDir.NORTH_WEST), OpSetPantsThreshhold.INSTANCE),

@@ -77,15 +77,357 @@
     },
     "done": true
   },
+  "hexcasting:recipes/tools/cypher": {
+    "criteria": {
+      "has_item": "2024-12-27 20:11:00 -0800"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:plains": "2024-12-27 20:11:02 -0800"
     },
     "done": false
   },
-  "hexcasting:recipes/tools/cypher": {
+  "hexcasting:recipes/misc/dye_colorizer_white": {
     "criteria": {
-      "has_item": "2024-12-27 20:11:00 -0800"
+      "has_item": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "hexcasting:recipes/building_blocks/slate_block_from_slates": {
+    "criteria": {
+      "has_item": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "hexcasting:recipes/misc/pride_colorizer_gay": {
+    "criteria": {
+      "has_item": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_chestplate": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "hexcasting:recipes/misc/dye_colorizer_light_gray": {
+    "criteria": {
+      "has_item": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "hexcasting:recipes/misc/dye_colorizer_cyan": {
+    "criteria": {
+      "has_item": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "hexcasting:recipes/misc/pride_colorizer_lesbian": {
+    "criteria": {
+      "has_item": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "hexcasting:recipes/misc/dye_colorizer_magenta": {
+    "criteria": {
+      "has_item": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_chestplate": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye": {
+    "criteria": {
+      "has_lapis_lazuli": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "hexcasting:recipes/misc/pride_colorizer_asexual": {
+    "criteria": {
+      "has_item": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "hexcasting:recipes/misc/pride_colorizer_agender": {
+    "criteria": {
+      "has_item": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "hexcasting:root": {
+    "criteria": {
+      "has_charged_amethyst": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "hexcasting:recipes/building_blocks/amethyst_dust_packing": {
+    "criteria": {
+      "has_item": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "hexcasting:recipes/building_blocks/amethyst_tiles": {
+    "criteria": {
+      "has_item": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lapis_block": {
+    "criteria": {
+      "has_lapis_lazuli": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "hexcasting:recipes/misc/dye_colorizer_red": {
+    "criteria": {
+      "has_item": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "hexcasting:recipes/misc/dye_colorizer_gray": {
+    "criteria": {
+      "has_item": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "hexcasting:recipes/misc/dye_colorizer_purple": {
+    "criteria": {
+      "has_item": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "hexcasting:recipes/misc/pride_colorizer_intersex": {
+    "criteria": {
+      "has_item": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_banner": {
+    "criteria": {
+      "has_white_wool": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "hexcasting:enlightenment": {
+    "criteria": {
+      "health_used": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "hexcasting:recipes/misc/pride_colorizer_pansexual": {
+    "criteria": {
+      "has_item": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "hexcasting:recipes/misc/pride_colorizer_demigirl": {
+    "criteria": {
+      "has_item": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "hexcasting:recipes/building_blocks/slate_block": {
+    "criteria": {
+      "has_item": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "hexcasting:recipes/misc/default_colorizer": {
+    "criteria": {
+      "has_item": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "hexcasting:recipes/building_blocks/amethyst_dust_unpacking": {
+    "criteria": {
+      "has_item": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "hexcasting:recipes/misc/pride_colorizer_genderqueer": {
+    "criteria": {
+      "has_item": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_item_frame": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "hexcasting:recipes/misc/pride_colorizer_plural": {
+    "criteria": {
+      "has_item": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "hexcasting:recipes/misc/dye_colorizer_green": {
+    "criteria": {
+      "has_item": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "hexcasting:recipes/misc/uuid_colorizer": {
+    "criteria": {
+      "has_item": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_leggings": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "hexcasting:recipes/misc/dye_colorizer_yellow": {
+    "criteria": {
+      "has_item": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "hexcasting:recipes/misc/pride_colorizer_aroace": {
+    "criteria": {
+      "has_item": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "phlexiful:phlexible": {
+    "criteria": {
+      "requirement": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "hexcasting:recipes/misc/pride_colorizer_transgender": {
+    "criteria": {
+      "has_item": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "hexcasting:recipes/misc/pride_colorizer_nonbinary": {
+    "criteria": {
+      "has_item": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_chestplate": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "hexcasting:recipes/misc/pride_colorizer_aromantic": {
+    "criteria": {
+      "has_item": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_bed": {
+    "criteria": {
+      "has_white_wool": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "hexcasting:recipes/misc/pride_colorizer_genderfluid": {
+    "criteria": {
+      "has_item": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "hexcasting:recipes/misc/pride_colorizer_bisexual": {
+    "criteria": {
+      "has_item": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "hexcasting:recipes/misc/pride_colorizer_demiboy": {
+    "criteria": {
+      "has_item": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "hexcasting:recipes/misc/dye_colorizer_light_blue": {
+    "criteria": {
+      "has_item": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "hexcasting:recipes/misc/dye_colorizer_brown": {
+    "criteria": {
+      "has_item": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "hexcasting:opened_eyes": {
+    "criteria": {
+      "health_used": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "hexcasting:recipes/decorations/slate": {
+    "criteria": {
+      "has_item": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "hexcasting:recipes/misc/dye_colorizer_pink": {
+    "criteria": {
+      "has_item": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "hexcasting:recipes/misc/dye_colorizer_lime": {
+    "criteria": {
+      "has_item": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "hexcasting:recipes/misc/dye_colorizer_black": {
+    "criteria": {
+      "has_item": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "hexcasting:recipes/misc/dye_colorizer_blue": {
+    "criteria": {
+      "has_item": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "hexcasting:y_u_no_cast_angy": {
+    "criteria": {
+      "did_the_thing": "2025-02-18 21:46:09 -0800"
+    },
+    "done": true
+  },
+  "hexcasting:recipes/misc/dye_colorizer_orange": {
+    "criteria": {
+      "has_item": "2025-02-18 21:46:09 -0800"
     },
     "done": true
   },
