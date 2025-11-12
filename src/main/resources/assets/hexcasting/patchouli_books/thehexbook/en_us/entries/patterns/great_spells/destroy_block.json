@@ -1,0 +1,22 @@
+{
+  "name": "phlexiful.page.destroy_block.title",
+  "category": "hexcasting:patterns/great_spells",
+  "icon": "minecraft:netherite_pickaxe",
+  "sortnum": 7,
+  "advancement": "hexcasting:root",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "hexcasting:pattern",
+      "op_id": "phlexiful:destroy_block",
+      "anchor": "phlexiful:destroy_block",
+      "input": "vector",
+      "output": "",
+      "text": "phlexiful.page.destroy_block.1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "phlexiful.page.destroy_block.2"
+    }
+  ]
+}

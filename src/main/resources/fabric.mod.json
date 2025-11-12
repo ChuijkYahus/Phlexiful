@@ -1,0 +1,54 @@
+{
+	"schemaVersion": 1,
+	"id": "phlexiful",
+	"version": "${version}",
+	"name": "Phlexiful",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/phlexiful/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			{
+				"value": "io.github.candycalc.Phlexiful",
+				"adapter": "kotlin"
+			}
+		],
+		"client": [
+			{
+				"value": "io.github.candycalc.PhlexifulClient",
+				"adapter": "kotlin"
+			}
+		],
+		"fabric-datagen": [
+			{
+				"value": "io.github.candycalc.PhlexifulDataGenerator",
+				"adapter": "kotlin"
+			}
+		]
+	},
+	"mixins": [
+		"phlexiful.mixins.json",
+		{
+			"config": "phlexiful.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"fabric-language-kotlin": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

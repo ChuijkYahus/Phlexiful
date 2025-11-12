@@ -1,0 +1,18 @@
+{
+  "name": "phlexiful.page.media_weave.title",
+  "icon": "phlexiful:media_weave",
+  "advancement": "hexcasting:root",
+  "category": "hexcasting:items",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "phlexiful:media_weave",
+      "text": "phlexiful.page.media_weave.1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "phlexiful.page.media_weave.2"
+    }
+  ]
+}

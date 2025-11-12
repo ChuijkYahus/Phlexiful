@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "package": "io.github.candycalc.mixin.client",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "ArmorFeatureRendererMixin",
+    "DrawContextMixin",
+    "HandledScreenMixin",
+    "HeadFeatureRendererMixin",
+    "InGameHUDMixin",
+    "ItemRendererAccessor",
+    "ItemRendererMixin",
+    "ModelLoaderMixin",
+    "ParticleManagerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}
