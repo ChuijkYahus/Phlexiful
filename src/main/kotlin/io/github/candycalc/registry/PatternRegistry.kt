@@ -8,8 +8,11 @@ import at.petrak.hexcasting.common.lib.hex.HexActions
 import io.github.candycalc.Phlexiful
 import io.github.candycalc.casting.spell.caddisfly.OpCaddisfly
 import io.github.candycalc.casting.spell.caddisfly.OpClearCaddisfly
+import io.github.candycalc.casting.spell.caddisfly.OpReadCaddisfly
 import io.github.candycalc.casting.spell.great.OpDestroyBlock
 import io.github.candycalc.casting.spell.great.OpEtherealness
+import io.github.candycalc.interop.PhlexInterop
+import net.fabricmc.loader.api.FabricLoader
 import net.minecraft.registry.Registry
 import net.minecraft.util.Identifier
 
@@ -44,15 +47,16 @@ open class PatternRegistry {
             "clear_caddisfly",
             HexPattern.fromAngles("wwaqwwedww", HexDir.EAST),
             OpClearCaddisfly())
-        //  READ_CADDISFLY is in hexal compat
+        //  READ_CADDISFLY is in hexpose compat
 
-        //  HEXAL COMPAT
-        //val READ_CADDISFLY = if (FabricLoader.getInstance().isModLoaded(PhlexInterop.HEXAL_ID)) {
-        //    wrap(
-        //        "read_caddisfly",
-        //        HexPattern.fromAngles("wwaadadaddwwaqww", HexDir.EAST),
-        //        OpReadCaddisfly())
-        //} else { null }
+        //  hexpose COMPAT
+        val READ_CADDISFLY = if (FabricLoader.getInstance().isModLoaded(PhlexInterop.HEXPOSE_ID)) {
+            wrap(
+                "read_caddisfly",
+                HexPattern.fromAngles("wwaadadaddwwaqww", HexDir.EAST),
+                OpReadCaddisfly()
+            )
+        } else { null }
 
 
         fun wrap(name: String?, pattern: HexPattern?, action: Action?): ActionRegistryEntry {

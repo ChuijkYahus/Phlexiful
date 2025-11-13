@@ -32,7 +32,7 @@ const val TAG_MAX_MEDIA: String = "hexcasting:start_media"
 const val TAG_DATA: String = "data"
 const val TAG_WORN: String = "phlexiful:is_worn" //I don't want to talk about how cursed this is (unless you know a better way pls)
 
-class BatteryPants(type: Type, settings: Settings) : ArmorItem(PhlexArmorMaterials.BATTERY, type, settings), MediaHolderItem, IotaHolderItem {
+class BatteryPants(type: Type, settings: Settings) : ArmorItem(PhlexArmorMaterials.BATTERY, type, settings), MediaHolderItem {
     //removed trimming of trailing 0s because it was distracting with the constant increase.
     val DUST_AMOUNT: DecimalFormat = DecimalFormat("###,##0.00")
     val HEX_COLOR: TextColor? = TextColor.fromRgb(0xb38ef3)
@@ -45,26 +45,6 @@ class BatteryPants(type: Type, settings: Settings) : ArmorItem(PhlexArmorMateria
 
     @Override
     override fun inventoryTick(stack: ItemStack, world: World, entity: Entity, slot: Int, selected: Boolean) {
-        //why does inventoryTick pass the in the slot but not the inventory??
-        if ((entity as PlayerEntity).getEquippedStack(EquipmentSlot.LEGS) === stack) {
-            var media = getMedia(stack)
-            val maxMedia = getMaxMedia(stack)
-            // crimew not make code with magic numbers challenge (impossible)
-            // slowly decreases rate of media generation. Starts at 1/200 dust, ends at 1/600 dust per tick
-            media = media + (0.05 * 2.0.pow(-0.79248 * media.toDouble() / maxMedia) / 10 * MediaConstants.DUST_UNIT).toLong()
-            setMedia(stack, media)
-
-
-            if (!stack.getBoolean(TAG_WORN)) {
-                stack.putBoolean(TAG_WORN, true)
-            }
-        } else {
-            if (stack.getBoolean(TAG_WORN)) {
-                stack.putBoolean(TAG_WORN, false)
-            }
-        }
-
-        super.inventoryTick(stack, world, entity, slot, selected)
     }
 
     //  MediaHolder stuff
@@ -89,15 +69,11 @@ class BatteryPants(type: Type, settings: Settings) : ArmorItem(PhlexArmorMateria
 
     //TODO make this better somehow maybe???
     override fun canProvideMedia(stack: ItemStack): Boolean {
-        return stack.getBoolean(TAG_WORN)
+        return false
     }
 
     override fun canRecharge(p0: ItemStack?): Boolean {
         return false
-    }
-
-    override fun getConsumptionPriority(stack: ItemStack?): Int {
-        return 9999 //one less than Bottomless Phial from beholderface mod
     }
 
     override fun withdrawMedia(stack: ItemStack, cost: Long, simulate: Boolean): Long {
@@ -108,27 +84,6 @@ class BatteryPants(type: Type, settings: Settings) : ArmorItem(PhlexArmorMateria
             super.withdrawMedia(stack, cost, simulate)
         } else {
             0
-        }
-    }
-
-    //  IotaHolder stuff
-    override fun readIotaTag(stack: ItemStack): NbtCompound? {
-        return stack.getCompound(TAG_DATA)
-    }
-
-    override fun writeable(p0: ItemStack): Boolean {
-        return false
-    }
-
-    override fun canWrite(stack: ItemStack, iota: Iota?): Boolean {
-        return false
-    }
-
-    override fun writeDatum(stack: ItemStack, iota: Iota?) {
-        if (iota == null) {
-            stack.remove(TAG_DATA)
-        } else {
-            stack.putCompound(TAG_DATA, IotaType.serialize(iota))
         }
     }
 
@@ -186,7 +141,6 @@ class BatteryPants(type: Type, settings: Settings) : ArmorItem(PhlexArmorMateria
             percentFull.styledWith { style -> style.withColor(color) }
 
             tooltip.add(Text.translatable("hexcasting.tooltip.media_amount.advanced", mediaAmount, maxCapacity, percentFull))
-            IotaHolderItem.appendHoverText(this, stack, tooltip, context)
         }
 
         super.appendTooltip(stack, world, tooltip, context)

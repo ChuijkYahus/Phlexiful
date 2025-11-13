@@ -4,6 +4,7 @@ import at.petrak.hexcasting.common.items.ItemLens
 import at.petrak.hexcasting.xplat.IXplatAbstractions
 import io.github.candycalc.Phlexiful
 import io.github.candycalc.item.armor.BatteryPants
+import io.github.candycalc.items.WeldingMask
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings
 import net.minecraft.entity.EquipmentSlot
 import net.minecraft.item.ArmorItem
@@ -15,7 +16,7 @@ import net.minecraft.util.Identifier
 open class ItemRegistry {
     companion object {
 
-        val WELDING_MASK: Item = registerItem("welding_mask", ItemLens(
+        val WELDING_MASK: Item = registerItem("welding_mask", WeldingMask(
             IXplatAbstractions.INSTANCE.addEquipSlotFabric(EquipmentSlot.HEAD)
                 .maxCount(1) as FabricItemSettings
         ))

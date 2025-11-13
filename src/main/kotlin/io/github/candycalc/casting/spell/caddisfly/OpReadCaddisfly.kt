@@ -1,31 +1,32 @@
 package io.github.candycalc.casting.spell.caddisfly
 
-import at.petrak.hexcasting.api.casting.RenderedSpell
-import at.petrak.hexcasting.api.casting.castables.SpellAction
 import at.petrak.hexcasting.api.casting.eval.CastingEnvironment
-import at.petrak.hexcasting.api.casting.getEntity
 import at.petrak.hexcasting.api.casting.iota.Iota
 import net.minecraft.item.ItemStack
-import at.petrak.hexcasting.api.casting.asActionResult
+import at.petrak.hexcasting.api.casting.castables.ConstMediaAction
+import at.petrak.hexcasting.api.casting.mishaps.MishapBadOffhandItem
+import at.petrak.hexcasting.api.utils.hasCompound
+import io.github.candycalc.util.PhlexUtil
+import miyucomics.hexpose.iotas.asActionResult
+import net.minecraft.item.Item
+import net.minecraft.item.Items
+import net.minecraft.registry.Registries
 
-class OpReadCaddisfly : SpellAction {
-    override val argc: Int = 1
+class OpReadCaddisfly : ConstMediaAction {
+    override val argc: Int = 0
 
     override fun execute(
         args: List<Iota>,
         env: CastingEnvironment
-    ): SpellAction.Result {
-        args.getEntity(0, argc).type
-        return SpellAction.Result(
-            Spell(0),
-            0,
-            listOf()
+    ): List<Iota> {
+        val (handStack, hand) = env.getHeldItemToOperateOn { !it.isOf(Items.AIR) } ?: throw MishapBadOffhandItem.of(
+            ItemStack.EMPTY.copy(), "caddisflyable"
         )
-    }
 
-    private data class Spell(val item: Int): RenderedSpell {
-        override fun cast(env: CastingEnvironment) {
-            item
+        if (handStack.orCreateNbt.hasCompound(PhlexUtil.CADDISFLY_TAG)) {
+            return ItemStack.fromNbt(handStack.orCreateNbt.getCompound(PhlexUtil.CADDISFLY_TAG)).asActionResult
+        } else {
+            throw MishapBadOffhandItem.of(ItemStack.EMPTY.copy(), "caddisflyable")
         }
     }
 }
