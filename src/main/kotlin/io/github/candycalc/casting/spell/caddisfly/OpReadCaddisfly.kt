@@ -8,9 +8,7 @@ import at.petrak.hexcasting.api.casting.mishaps.MishapBadOffhandItem
 import at.petrak.hexcasting.api.utils.hasCompound
 import io.github.candycalc.util.PhlexUtil
 import miyucomics.hexpose.iotas.asActionResult
-import net.minecraft.item.Item
 import net.minecraft.item.Items
-import net.minecraft.registry.Registries
 
 class OpReadCaddisfly : ConstMediaAction {
     override val argc: Int = 0

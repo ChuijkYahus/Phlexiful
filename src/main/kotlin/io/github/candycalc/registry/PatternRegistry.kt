@@ -10,7 +10,6 @@ import io.github.candycalc.casting.spell.caddisfly.OpCaddisfly
 import io.github.candycalc.casting.spell.caddisfly.OpClearCaddisfly
 import io.github.candycalc.casting.spell.caddisfly.OpReadCaddisfly
 import io.github.candycalc.casting.spell.great.OpDestroyBlock
-import io.github.candycalc.casting.spell.great.OpEtherealness
 import io.github.candycalc.interop.PhlexInterop
 import net.fabricmc.loader.api.FabricLoader
 import net.minecraft.registry.Registry
@@ -24,8 +23,6 @@ open class PatternRegistry {
         val DESTROY_BLOCK: ActionRegistryEntry = wrap("destroy_block", HexPattern.fromAngles("qaqqqqqwaeaea", HexDir.EAST),
             OpDestroyBlock
         )
-        //val ETHEREALNESS: ActionRegistryEntry = wrap("etherealness", HexPattern.fromAngles("dqawa", HexDir.EAST),
-        //    OpEtherealness())
         //DISSOCIATE_EVAL = wrap("dissociate_eval", HexPattern.fromAngles("dwddwde", HexDir.EAST), OpDissociateEval.INSTANCE),
         //val SETPANTSTHRESHHOLD: ActionRegistryEntry = wrap(
         //    "set_pants_threshhold",
