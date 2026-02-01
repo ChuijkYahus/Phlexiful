@@ -18,8 +18,8 @@
   "hexcasting.action.phlexiful:read_caddis": "检验变形茧",
 
 
-  "hexcasting.mishap.no_item.armor": "%s槽位中本应存在%s，而实际没有物品。",
-  "hexcasting.mishap.bad_item.armor": "%s槽位中本应存在%s，而实际为%s。",
+  "hexcasting.mishap.no_item.armor": "%2$s槽位中本应存在%1$s，而实际没有物品",
+  "hexcasting.mishap.bad_item.armor": "%2$s槽位中本应存在%1$s，而实际为%3$s",
   "hexcasting.mishap.bad_item.caddisflied": "一个处于变形茧影响下的物品",
   "hexcasting.mishap.bad_item.caddisflyable": "一个物品",
 
